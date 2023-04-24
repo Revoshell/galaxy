@@ -86,12 +86,12 @@ $(function() {
         clearInterval(h);
         var t = o.width
           , e = o.height;
-        for (s.nb = .1 * $(window).width(),
+        for (s.nb = NumberOfParticles * $(window).width(),
         c(),
         o.width = window.innerWidth,
         o.height = window.innerHeight,
         n.fillStyle = r,
-        n.lineWidth = .1,
+        n.lineWidth = LineWidth,
         n.strokeStyle = d,
         i = 0; i < s.nb; i++) {
             var a = s.array[i];
@@ -99,7 +99,7 @@ $(function() {
             a.y = a.y / e * o.height
         }
         c(),
-        h = setInterval(c, 1e3 / 30)
+        h = setInterval(c, 1e3 / SpeedParticles)
     });
     var h = setInterval(c, 1e3 / SpeedParticles);
     c()

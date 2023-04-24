@@ -1,9 +1,9 @@
-# galaxy
+# Information
 Interactive Starry Sky (Galaxy)
 * Author: Light Alex Projects (lightalex.com)
 * Author of adaptation: Randy (github.com — user: Revoshell)
 
-# The configuration is on the way: files\scripts\galaxy.js
+## The configuration is on the way: files\scripts\galaxy.js
 
 1. ParticlesColor = "#ffffff"
    - Use this to change the color of the particles (full or abbreviated, color in hexadecimal format)
